@@ -1,5 +1,5 @@
 #flask,pandas,scikit-learn,pickle-mixin
-from flask import Flask,render_template,request
+from flask import Flask,render_template,request # type: ignore
 import pandas as pd
 import pickle
 app=Flask(__name__)
